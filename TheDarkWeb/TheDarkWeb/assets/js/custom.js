@@ -81,7 +81,7 @@ function initMap() {
                     var e = s.getCenter();
                     google.maps.event.trigger(s, "resize"), s.setCenter(e);
                 });
-                new google.maps.Marker({ position: o, animation: google.maps.Animation.BOUNCE, icon: "assets/img/map-marker.png", title: "ASL", map: s });
+                new google.maps.Marker({ position: o, animation: google.maps.Animation.BOUNCE, icon: "assets/img/map-marker.png?gh", title: "ASL", map: s });
             } catch (e) {
                 console.log(e);
             }
