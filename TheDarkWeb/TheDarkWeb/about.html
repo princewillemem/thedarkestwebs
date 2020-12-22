@@ -253,8 +253,13 @@
                         </div>
                         <div class="copyright-social">
                            
-                            <div class="col-xs-12">&copy; @DateTime.Now.Year  All rights reserved.<a> The Darkest Webs</a></div>
-
+                            <p class="text-center">
+                                Copyright &copy;
+                                <script>
+                                    var CurrentYear = new Date().getFullYear()
+                                    document.write(CurrentYear)
+                                </script>
+                            </p>
                             <ul>
                                 <li class="image-zoom" data-dsn="parallax"><a href="#" target="_blank">Instagram</a></li>
                                 <li class="image-zoom" data-dsn="parallax"><a href="#" target="_blank">Facebook</a></li>
